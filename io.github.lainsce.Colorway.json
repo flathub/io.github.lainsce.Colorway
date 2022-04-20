@@ -4,6 +4,7 @@
     "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Colorway",
+    "rename-icon" : "io.github.lainsce.Colorway",
     "finish-args" : [
         "--socket=wayland",
         "--socket=fallback-x11",
