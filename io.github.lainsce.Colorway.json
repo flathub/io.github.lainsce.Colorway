@@ -45,8 +45,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "url" : "https://github.com/lainsce/colorway/archive/1.1.1.zip",
-                    "sha256" : "70f3f7faadc28f4b250d8d8ef9afb4351e6efb486aafa48b79d839e91d0f9583"
+                    "url" : "https://github.com/lainsce/colorway/archive/1.1.2.zip",
+                    "sha256" : "94611b797eb769205032ce461b6b8bf3076f8900b30eba715552d2b08c081670"
                 }
             ]
         }
