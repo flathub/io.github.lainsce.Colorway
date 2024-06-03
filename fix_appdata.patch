@@ -1,0 +1,26 @@
+From 493a476c397df1df38923471362d6088b8167944 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Tue, 4 Jun 2024 00:54:05 +0300
+Subject: [PATCH] Update appdata
+
+- Remove unreachable donation URL
+---
+ data/io.github.lainsce.Colorway.metainfo.xml.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data/io.github.lainsce.Colorway.metainfo.xml.in b/data/io.github.lainsce.Colorway.metainfo.xml.in
+index 6c4bd56..40aafdf 100644
+--- a/data/io.github.lainsce.Colorway.metainfo.xml.in
++++ b/data/io.github.lainsce.Colorway.metainfo.xml.in
+@@ -19,7 +19,7 @@
+     <developer_name translatable="no">Lains</developer_name>
+     <url type="homepage">https://github.com/lainsce/colorway/</url>
+     <url type="bugtracker">https://github.com/lainsce/colorway/issues</url>
+-    <url type="donation">https://www.ko-fi.com/lainsce/</url>
++    <url type="vcs-browser">https://github.com/lainsce/colorway/</url>
+     <url type="translate">https://github.com/lainsce/colorway/blob/master/po/README.md</url>
+     <screenshots>
+         <screenshot type="default">
+--
+libgit2 1.7.2
+
