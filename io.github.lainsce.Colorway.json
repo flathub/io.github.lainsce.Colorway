@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Colorway",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Colorway",
     "rename-icon" : "io.github.lainsce.Colorway",
@@ -48,6 +48,10 @@
                     "type" : "archive",
                     "url" : "https://github.com/lainsce/colorway/archive/1.2.0.zip",
                     "sha256" : "7e7297b33a7b3e7ba893ff270e6456f81cbd8963258e3deeb94294191b670347"
+                },
+                {
+                    "type" : "patch",
+                    "path" : "fix_appdata.patch"
                 }
             ]
         }
