@@ -1,0 +1,27 @@
+From 6787bc8b74c9e1334671c8e05f2d584b3efc6fcb Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Wed, 25 Mar 2026 00:35:46 +0300
+Subject: [PATCH] Fix tag-empty error
+
+> Error: Appstream: 'E:io.github.lainsce.Colorway.metainfo.xml:tag-empty:108
+> The mentioned tag is empty, which is highly likely not intended as it should have content.
+---
+ po/de.po | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/po/de.po b/po/de.po
+index 61c6925..17a5214 100644
+--- a/po/de.po
++++ b/po/de.po
+@@ -57,7 +57,7 @@ msgstr "Geändert: Neues Benutzeroberflächen-Layout."
+ 
+ #: data/io.github.lainsce.Colorway.appdata.xml.in:51
+ msgid "Release: Color Choosing with a Drag"
+-msgstr "Veröffentlichung: Farbauswahl per Drag&Drop"
++msgstr ""
+ 
+ #: data/io.github.lainsce.Colorway.appdata.xml.in:52
+ msgid ""
+--
+libgit2 1.7.2
+

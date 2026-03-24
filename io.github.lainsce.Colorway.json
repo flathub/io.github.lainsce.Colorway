@@ -43,7 +43,10 @@
                 },
                 {
                     "type" : "patch",
-                    "path" : "fix_appdata.patch"
+                    "paths" : [
+                      "fix_appdata.patch",
+                      "fix-de-po.patch"
+                    ]
                 }
             ]
         }
