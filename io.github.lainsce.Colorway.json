@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.lainsce.Colorway",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "command" : "io.github.lainsce.Colorway",
     "rename-icon" : "io.github.lainsce.Colorway",
@@ -9,19 +9,11 @@
         "--socket=wayland",
         "--socket=fallback-x11",
         "--share=ipc",
-	"--device=dri"
+        "--device=dri"
     ],
     "cleanup" : [
         "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "/share/vala",
-        "*.la",
-        "*.a"
+        "/lib/pkgconfig"
     ],
     "modules" : [
         {
@@ -51,7 +43,10 @@
                 },
                 {
                     "type" : "patch",
-                    "path" : "fix_appdata.patch"
+                    "paths" : [
+                      "fix_appdata.patch",
+                      "fix-de-po.patch"
+                    ]
                 }
             ]
         }
